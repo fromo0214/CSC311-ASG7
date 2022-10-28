@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "build test",
+      "setup": "ant clean",
+      "run": "ant build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 56
+    },
+    {
+      "name": "testClear",
+      "setup": "ant build",
+      "run": "ant testClear",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testContainsKey",
+      "setup": "ant build",
+      "run": "ant testContainsKey",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testContainsValue",
+      "setup": "ant build",
+      "run": "ant testContainsValue",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testGet",
+      "setup": "ant build",
+      "run": "ant testGet",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testIsEmpty",
+      "setup": "ant build",
+      "run": "ant testIsEmpty",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testKeySet",
+      "setup": "ant build",
+      "run": "ant testKeySet",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testPut",
+      "setup": "ant build",
+      "run": "ant testPut",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testRemove",
+      "setup": "ant build",
+      "run": "ant testRemove",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testSize",
+      "setup": "ant build",
+      "run": "ant testSize",
+      "input": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testValues",
+      "setup": "ant build",
+      "run": "ant testValues",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "testPutAll",
+      "setup": "ant build",
+      "run": "ant testPutAll",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
